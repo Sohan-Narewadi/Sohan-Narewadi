@@ -62,9 +62,25 @@ requests, so they are private or hidden; no live stats are possible):
 - OceanEmbed — https://github.com/arsiwalamoiz24/OceanEmbed-SIH-2026
 - SIH-26 Internal Round — https://github.com/arsiwalamoiz24/SIH-26-internal-round
 
-Static cards carry a "Smart India Hackathon 2026" badge. Their descriptions come
-from the owner's one-line summaries stored in `projects.json`; the card omits any
-detail the owner has not provided rather than inventing it.
+Static cards carry a "Smart India Hackathon 2026" badge and a "Team project"
+marker (repos live under a teammate's account; owner is a contributor). Content
+is taken from the local repos' own READMEs (`D:\SIH-PS-66\OceanEmbed-SIH-2026`,
+`D:\SIH\SIH-26-internal-round`), stored in `projects.json`:
+
+- **OceanEmbed** (SIH 2026, PS 26066, MoES/INCOIS): reconstructs subsurface
+  ocean temperature (0–1000 m) from satellite surface observations over the
+  Bay of Bengal, via a satellite-embedding deep-learning pipeline trained
+  against GLORYS and validated against Argo. Stack: Python, PyTorch, FastAPI,
+  React, Vite, MapLibre GL, Three.js.
+- **PRISM** (SIH 2026, Team OUTLIERs, SIH26_76; repo `SIH-26-internal-round`):
+  lunar south-pole water-ice screening, hazard mapping and landing/rover
+  traverse planning on real Chandrayaan-2 DFSAR radar and NASA LOLA terrain
+  data; YOLOv8 boulder detection on ShadowCam imagery, A* traverse planner with
+  battery model, Next.js dashboard. Stack: Python, YOLOv8, Isolation Forest,
+  Next.js, React Three Fiber, Three.js, Framer Motion.
+
+Claims are limited to what the READMEs state; no accuracy numbers, awards or
+outcomes are added.
 
 ## Dynamic behavior
 `update.yml` runs `build.mjs` with the built-in `GITHUB_TOKEN`. It re-renders
