@@ -12,7 +12,7 @@ test('typingUrl encodes lines, separates them with ; and has no raw spaces', () 
 });
 
 test('typingUrl uses a mid-tone violet that stays readable on both light and dark backgrounds', () => {
-  assert.equal(new URL(typingUrl(['x'])).searchParams.get('color'), '8B5CF6');
+  assert.equal(new URL(typingUrl(['x'])).searchParams.get('color'), '0D9488');
 });
 
 test('typingUrl strips semicolons from lines so they cannot split the animation', () => {

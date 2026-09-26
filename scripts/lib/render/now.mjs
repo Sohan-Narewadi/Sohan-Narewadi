@@ -22,11 +22,11 @@ export function renderNow(repos) {
         `<circle cx="42" cy="${y + 29}" r="6" fill="${color}" opacity="0.5"><animate attributeName="r" values="6;13;6" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0;0.5" dur="2.2s" repeatCount="indefinite"/></circle>`,
       );
     }
-    parts.push(text(64, y + 26, truncate(r.name, 400, 19), { size: 19, weight: 700, fill: '#ffffff' }));
+    parts.push(text(64, y + 26, truncate(r.name, 400, 19), { size: 19, weight: 700, fill: palette.heading }));
     if (r.description) parts.push(text(64, y + 47, truncate(r.description, 470, 14), { size: 14, fill: palette.muted }));
     else if (r.language) parts.push(text(64, y + 47, r.language, { size: 14, fill: palette.muted }));
     const date = formatDate(r.pushedAt);
-    if (date) parts.push(text(W - 40, y + 36, `Pushed ${date}`, { size: 14, fill: '#c7d2fe', anchor: 'end' }));
+    if (date) parts.push(text(W - 40, y + 36, `Pushed ${date}`, { size: 14, fill: palette.soft, anchor: 'end' }));
   });
   parts.push(svgClose);
   return parts.join('\n');

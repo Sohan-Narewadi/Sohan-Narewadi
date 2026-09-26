@@ -43,7 +43,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#22d3ee&color_dots=#1b2140,#4c3a8f,#7c5cf0,#c084fc,#f472b6
+            dist/snake.svg?color_snake=#5eead4&color_dots=#1a222d,#16453f,#1f6f66,#2fa79a,#5eead4
 
       - name: Install snake into assets
         run: |

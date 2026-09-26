@@ -10,7 +10,7 @@ export function renderLanguages({ languages }) {
   const parts = [];
   const defs = `<clipPath id="barClip"><rect x="${PAD}" y="66" width="${INNER}" height="12" rx="6"/></clipPath>`;
   parts.push(svgOpen(W, H, 'Top languages', { defs }), cardBase(W, H));
-  parts.push(text(PAD, 44, 'Top languages', { size: 20, weight: 700, fill: '#ffffff' }));
+  parts.push(text(PAD, 44, 'Top languages', { size: 20, weight: 700, fill: palette.heading }));
   if (!languages.length) {
     parts.push(text(W / 2, 140, 'No language data yet', { size: 15, fill: palette.muted, anchor: 'middle' }));
     parts.push(svgClose);
@@ -30,7 +30,7 @@ export function renderLanguages({ languages }) {
     const y = 122 + Math.floor(i / 2) * 38;
     parts.push(
       `<circle cx="${cx + 5}" cy="${y - 5}" r="5" fill="${languageColor(l.name)}"/>`,
-      text(cx + 18, y, truncate(l.name, colW - 70, 13.5), { size: 13.5, weight: 600, fill: '#ffffff' }),
+      text(cx + 18, y, truncate(l.name, colW - 70, 13.5), { size: 13.5, weight: 600, fill: palette.heading }),
       text(cx + colW, y, `${l.pct}%`, { size: 13, fill: palette.muted, anchor: 'end' }),
     );
   });
@@ -40,7 +40,7 @@ export function renderLanguages({ languages }) {
 
 export function renderNumbers({ repoCount, stars, activeLast30, memberSince }) {
   const parts = [svgOpen(W, H, 'GitHub at a glance'), cardBase(W, H)];
-  parts.push(text(PAD, 44, 'At a glance', { size: 20, weight: 700, fill: '#ffffff' }));
+  parts.push(text(PAD, 44, 'At a glance', { size: 20, weight: 700, fill: palette.heading }));
   const tiles = [
     [String(repoCount), 'Public repos'],
     [String(stars), 'Stars earned'],
@@ -53,7 +53,7 @@ export function renderNumbers({ repoCount, stars, activeLast30, memberSince }) {
     const y = 66 + Math.floor(i / 2) * 88;
     parts.push(
       `<rect x="${x}" y="${y}" width="${tw}" height="78" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>`,
-      text(x + 18, y + 42, value, { size: 30, weight: 700, fill: '#ffffff' }),
+      text(x + 18, y + 42, value, { size: 30, weight: 700, fill: palette.heading }),
       text(x + 18, y + 64, label, { size: 12, fill: palette.muted }),
     );
   });

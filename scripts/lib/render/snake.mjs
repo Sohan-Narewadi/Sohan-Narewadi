@@ -8,7 +8,7 @@ export function renderSnakePlaceholder() {
   return [
     svgOpen(W, H, 'Contribution snake'),
     cardBase(W, H, 24),
-    text(W / 2, 96, 'Contribution snake', { size: 24, weight: 700, fill: '#ffffff', anchor: 'middle' }),
+    text(W / 2, 96, 'Contribution snake', { size: 24, weight: 700, fill: palette.heading, anchor: 'middle' }),
     text(W / 2, 128, 'appears after the first GitHub Action run', { size: 14, fill: palette.muted, anchor: 'middle' }),
     svgClose,
   ].join('\n');

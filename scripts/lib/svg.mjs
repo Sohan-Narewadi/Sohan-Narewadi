@@ -68,10 +68,10 @@ export function formatDate(iso) {
 
 function glowDefs() {
   return [
-    '<linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>',
-    '<linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3a"/><stop offset="1" stop-color="#0b1020"/></linearGradient>',
-    '<radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>',
-    '<radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>',
+    '<linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>',
+    '<linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161c26"/><stop offset="1" stop-color="#0f1419"/></linearGradient>',
+    '<radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#5eead4" stop-opacity="0.16"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>',
+    '<radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#7dd3fc" stop-opacity="0.12"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></radialGradient>',
   ].join('');
 }
 
@@ -90,7 +90,7 @@ export function cardBase(w, h, r = 20) {
     `<rect width="${w}" height="${h}" rx="${r}" fill="url(#base)"/>`,
     `<rect width="${w}" height="${h}" rx="${r}" fill="url(#glowV)"/>`,
     `<rect width="${w}" height="${h}" rx="${r}" fill="url(#glowC)"/>`,
-    `<rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="${r}" fill="none" stroke="url(#aurora)" stroke-opacity="0.55"/>`,
+    `<rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="${r}" fill="none" stroke="url(#aurora)" stroke-opacity="0.45"/>`,
   ].join('');
 }
 

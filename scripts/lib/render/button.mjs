@@ -1,6 +1,7 @@
+import { palette } from '../palette.mjs';
 import { svgOpen, svgClose, text, textWidth } from '../svg.mjs';
 
-const S = '#e8ebff';
+const S = palette.heading;
 const ICONS = {
   linkedin: (x, y) =>
     `<rect x="${x}" y="${y}" width="24" height="24" rx="6" fill="none" stroke="${S}" stroke-width="1.8"/>` +
@@ -24,7 +25,7 @@ export function renderButton({ label, kind }) {
     `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="26" fill="url(#base)" stroke="url(#aurora)" stroke-opacity="0.75"/>`,
     `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="26" fill="url(#glowV)"/>`,
     icon(22, 14),
-    text(58, 32, label, { size: 15, weight: 600, fill: '#ffffff' }),
+    text(58, 32, label, { size: 15, weight: 600, fill: palette.heading }),
     svgClose,
   ].join('\n');
 }

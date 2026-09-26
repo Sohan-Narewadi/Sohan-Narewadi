@@ -10,8 +10,8 @@ const INNER = W - PAD * 2;
 function smallPill(x, y, label, accent = false) {
   const w = Math.ceil(textWidth(label, 11.5)) + 20;
   const svg =
-    `<rect x="${x}" y="${y}" width="${w}" height="22" rx="11" fill="${accent ? '#8b5cf6' : '#ffffff'}" fill-opacity="${accent ? 0.28 : 0.08}" stroke="${accent ? '#c4b5fd' : '#ffffff'}" stroke-opacity="${accent ? 0.7 : 0.18}"/>` +
-    text(x + w / 2, y + 15, label, { size: 11.5, weight: accent ? 600 : 500, fill: accent ? '#ede9fe' : palette.muted, anchor: 'middle' });
+    `<rect x="${x}" y="${y}" width="${w}" height="22" rx="11" fill="${accent ? palette.accent : '#ffffff'}" fill-opacity="${accent ? 0.28 : 0.08}" stroke="${accent ? palette.accent : '#ffffff'}" stroke-opacity="${accent ? 0.7 : 0.18}"/>` +
+    text(x + w / 2, y + 15, label, { size: 11.5, weight: accent ? 600 : 500, fill: accent ? palette.accentText : palette.muted, anchor: 'middle' });
   return { w, svg };
 }
 
@@ -27,7 +27,7 @@ function star(cx, cy, r, fill) {
 
 export function renderProjectCard(p) {
   const parts = [svgOpen(W, H + MARGIN, `${p.title} — project`), cardBase(W, H)];
-  parts.push(text(PAD, 52, truncate(p.title, INNER, 22), { size: 22, weight: 700, fill: '#ffffff' }));
+  parts.push(text(PAD, 52, truncate(p.title, INNER, 22), { size: 22, weight: 700, fill: palette.heading }));
 
   const badges = [p.badge, p.team ? 'Team project' : null].filter(Boolean);
   let x = PAD;
@@ -40,7 +40,7 @@ export function renderProjectCard(p) {
   const descTop = badges.length ? 116 : 90;
   const maxLines = Math.floor((176 - descTop) / 19) + 1;
   const lines = clampLines(wrapText(p.description ?? '', INNER, 13.5), maxLines, INNER, 13.5);
-  lines.forEach((l, i) => parts.push(text(PAD, descTop + i * 19, l, { size: 13.5, fill: '#cfd6f6' })));
+  lines.forEach((l, i) => parts.push(text(PAD, descTop + i * 19, l, { size: 13.5, fill: palette.body })));
 
   let tx = PAD;
   for (const tag of p.tags ?? []) {
@@ -53,14 +53,14 @@ export function renderProjectCard(p) {
   parts.push(`<line x1="${PAD}" y1="224" x2="${W - PAD}" y2="224" stroke="#ffffff" stroke-opacity="0.1"/>`);
   if (p.live) {
     const stars = String(p.stars ?? 0);
-    parts.push(star(PAD + 6, 238, 6, '#fbbf24'), text(PAD + 18, 242, stars, { size: 12.5, weight: 600, fill: '#ffffff' }));
+    parts.push(star(PAD + 6, 238, 6, '#fbbf24'), text(PAD + 18, 242, stars, { size: 12.5, weight: 600, fill: palette.heading }));
     const updated = formatDate(p.pushedAt);
     if (updated) parts.push(text(PAD + 18 + textWidth(stars, 12.5) + 14, 242, `Updated ${updated}`, { size: 12.5, fill: palette.muted }));
   } else {
     parts.push(text(PAD, 242, p.team ? 'Team repository' : 'Stats unavailable', { size: 12.5, fill: palette.muted }));
   }
   parts.push(
-    text(W - PAD - 14, 242, 'View repo', { size: 12.5, weight: 600, fill: '#c4b5fd', anchor: 'end' }),
+    text(W - PAD - 14, 242, 'View repo', { size: 12.5, weight: 600, fill: palette.accent, anchor: 'end' }),
     `<path d="M${W - PAD - 6} 236 l5 5 l-5 5" fill="none" stroke="url(#aurora)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
   );
   parts.push(svgClose);
@@ -75,7 +75,7 @@ export function renderChip({ name, language }) {
     svgOpen(w, h, name),
     `<rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="17" fill="url(#base)" stroke="url(#aurora)" stroke-opacity="0.5"/>`,
     `<circle cx="18" cy="17" r="5" fill="${languageColor(language)}"/>`,
-    text(32, 22, label, { size: 13, weight: 500, fill: '#e8ebff' }),
+    text(32, 22, label, { size: 13, weight: 500, fill: palette.heading }),
     svgClose,
   ].join('\n');
 }

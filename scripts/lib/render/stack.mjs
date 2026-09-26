@@ -4,10 +4,10 @@ import { svgOpen, svgClose, cardBase, text, textWidth } from '../svg.mjs';
 const W = 830;
 const PAD = 32;
 const PILL_H = 34;
-const HUES = [palette.violet, palette.cyan, palette.pink];
+const HUES = [palette.accent, palette.sky, palette.slate];
 
 export function renderStack(groups = []) {
-  const body = [text(PAD, 46, 'Tech stack', { size: 22, weight: 700, fill: '#ffffff' })];
+  const body = [text(PAD, 46, 'Tech stack', { size: 22, weight: 700, fill: palette.heading })];
   let cursor = 66;
   groups.forEach((g, gi) => {
     const hue = HUES[gi % HUES.length];

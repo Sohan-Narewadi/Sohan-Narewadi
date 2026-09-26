@@ -4,13 +4,13 @@
   "tagline": "Software Dev · Data Explorer · Builder",
   "typingLines": [
     "Software Dev · Data Explorer · Builder",
-    "Full-stack apps · ML pipelines · 3D visualisation"
+    "Full-stack apps · Machine learning · Clean code"
   ],
-  "bio": "Student software developer who likes building things end to end: full-stack web apps, a Flutter coding game, data analysis and ML pipelines, and 3D visualisations. This year I'm working on two Smart India Hackathon 2026 projects, OceanEmbed and PRISM.",
+  "bio": "Software developer who enjoys building things end to end. I like full-stack web applications and machine learning projects, from the data and models to the interface people actually use, and I'm always learning something new.",
   "facts": [
-    { "label": "Focus", "value": "Full-stack · Data & ML · 3D" },
-    { "label": "Languages", "value": "Java · C · JavaScript · Python · Dart" },
-    { "label": "Hackathon", "value": "Smart India Hackathon 2026" }
+    { "label": "Focus", "value": "Full-stack · Machine learning" },
+    { "label": "Languages", "value": "Java · C · JavaScript · Python" },
+    { "label": "Likes to build", "value": "Web apps & ML projects" }
   ],
   "links": {
     "linkedin": "https://www.linkedin.com/in/sohan-narewadi-2b6b51367/",

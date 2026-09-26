@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-label="Top languages" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"><title>Top languages</title><defs><linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3a"/><stop offset="1" stop-color="#0b1020"/></linearGradient><radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><clipPath id="barClip"><rect x="28" y="66" width="384" height="12" rx="6"/></clipPath></defs>
-<rect width="440" height="250" rx="20" fill="url(#base)"/><rect width="440" height="250" rx="20" fill="url(#glowV)"/><rect width="440" height="250" rx="20" fill="url(#glowC)"/><rect x="0.5" y="0.5" width="439" height="249" rx="20" fill="none" stroke="url(#aurora)" stroke-opacity="0.55"/>
-<text x="28" y="44" font-size="20" font-weight="700" fill="#ffffff" text-anchor="start">Top languages</text>
-<g clip-path="url(#barClip)"><rect x="28.00" y="66" width="196.22" height="12" fill="#ff7a59"/><rect x="224.22" y="66" width="73.34" height="12" fill="#f1e05a"/><rect x="297.57" y="66" width="50.30" height="12" fill="#22d3ee"/><rect x="347.87" y="66" width="12.67" height="12" fill="#f59e0b"/><rect x="360.54" y="66" width="12.29" height="12" fill="#a78bfa"/><rect x="372.83" y="66" width="39.17" height="12" fill="#64748b"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-label="Top languages" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"><title>Top languages</title><defs><linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161c26"/><stop offset="1" stop-color="#0f1419"/></linearGradient><radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#5eead4" stop-opacity="0.16"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient><radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#7dd3fc" stop-opacity="0.12"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></radialGradient><clipPath id="barClip"><rect x="28" y="66" width="384" height="12" rx="6"/></clipPath></defs>
+<rect width="440" height="250" rx="20" fill="url(#base)"/><rect width="440" height="250" rx="20" fill="url(#glowV)"/><rect width="440" height="250" rx="20" fill="url(#glowC)"/><rect x="0.5" y="0.5" width="439" height="249" rx="20" fill="none" stroke="url(#aurora)" stroke-opacity="0.45"/>
+<text x="28" y="44" font-size="20" font-weight="700" fill="#f1f5f9" text-anchor="start">Top languages</text>
+<g clip-path="url(#barClip)"><rect x="28.00" y="66" width="196.22" height="12" fill="#ff7a59"/><rect x="224.22" y="66" width="73.34" height="12" fill="#f1e05a"/><rect x="297.57" y="66" width="50.30" height="12" fill="#2dd4bf"/><rect x="347.87" y="66" width="12.67" height="12" fill="#f59e0b"/><rect x="360.54" y="66" width="12.29" height="12" fill="#7c9cf5"/><rect x="372.83" y="66" width="39.17" height="12" fill="#64748b"/></g>
 <circle cx="33" cy="117" r="5" fill="#ff7a59"/>
-<text x="46" y="122" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="start">HTML</text>
-<text x="212" y="122" font-size="13" font-weight="400" fill="#9aa4cf" text-anchor="end">51.1%</text>
+<text x="46" y="122" font-size="13.5" font-weight="600" fill="#f1f5f9" text-anchor="start">HTML</text>
+<text x="212" y="122" font-size="13" font-weight="400" fill="#7d8a9c" text-anchor="end">51.1%</text>
 <circle cx="233" cy="117" r="5" fill="#f1e05a"/>
-<text x="246" y="122" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="start">JavaScript</text>
-<text x="412" y="122" font-size="13" font-weight="400" fill="#9aa4cf" text-anchor="end">19.1%</text>
-<circle cx="33" cy="155" r="5" fill="#22d3ee"/>
-<text x="46" y="160" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="start">Dart</text>
-<text x="212" y="160" font-size="13" font-weight="400" fill="#9aa4cf" text-anchor="end">13.1%</text>
+<text x="246" y="122" font-size="13.5" font-weight="600" fill="#f1f5f9" text-anchor="start">JavaScript</text>
+<text x="412" y="122" font-size="13" font-weight="400" fill="#7d8a9c" text-anchor="end">19.1%</text>
+<circle cx="33" cy="155" r="5" fill="#2dd4bf"/>
+<text x="46" y="160" font-size="13.5" font-weight="600" fill="#f1f5f9" text-anchor="start">Dart</text>
+<text x="212" y="160" font-size="13" font-weight="400" fill="#7d8a9c" text-anchor="end">13.1%</text>
 <circle cx="233" cy="155" r="5" fill="#f59e0b"/>
-<text x="246" y="160" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="start">Java</text>
-<text x="412" y="160" font-size="13" font-weight="400" fill="#9aa4cf" text-anchor="end">3.3%</text>
-<circle cx="33" cy="193" r="5" fill="#a78bfa"/>
-<text x="46" y="198" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="start">CSS</text>
-<text x="212" y="198" font-size="13" font-weight="400" fill="#9aa4cf" text-anchor="end">3.2%</text>
+<text x="246" y="160" font-size="13.5" font-weight="600" fill="#f1f5f9" text-anchor="start">Java</text>
+<text x="412" y="160" font-size="13" font-weight="400" fill="#7d8a9c" text-anchor="end">3.3%</text>
+<circle cx="33" cy="193" r="5" fill="#7c9cf5"/>
+<text x="46" y="198" font-size="13.5" font-weight="600" fill="#f1f5f9" text-anchor="start">CSS</text>
+<text x="212" y="198" font-size="13" font-weight="400" fill="#7d8a9c" text-anchor="end">3.2%</text>
 <circle cx="233" cy="193" r="5" fill="#64748b"/>
-<text x="246" y="198" font-size="13.5" font-weight="600" fill="#ffffff" text-anchor="start">Other</text>
-<text x="412" y="198" font-size="13" font-weight="400" fill="#9aa4cf" text-anchor="end">10.2%</text>
+<text x="246" y="198" font-size="13.5" font-weight="600" fill="#f1f5f9" text-anchor="start">Other</text>
+<text x="412" y="198" font-size="13" font-weight="400" fill="#7d8a9c" text-anchor="end">10.2%</text>
 </svg>
