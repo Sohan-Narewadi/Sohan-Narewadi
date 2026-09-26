@@ -28,6 +28,8 @@ export function buildSite({ config, projects, template, data }) {
 
   const ids = new Set();
   for (const p of projects) {
+    if (!p.id) throw new Error('projects.json: every project needs an "id"');
+    if (!p.title) throw new Error(`projects.json: project "${p.id}" needs a "title"`);
     if (ids.has(p.id)) throw new Error(`projects.json: duplicate project id "${p.id}"`);
     ids.add(p.id);
   }
@@ -59,7 +61,10 @@ export function buildSite({ config, projects, template, data }) {
     stack: img(ref('assets/stack.svg', renderStack(config.stack)), 'Tech stack', ' width="830"'),
     projectsTitle: merged.length ? title('projects', 'Featured Projects') : '',
     projects: merged
-      .map((p) => link(p.url, img(ref(`assets/projects/${p.id}.svg`, renderProjectCard(p)), `${p.title} project`, ' width="405"')))
+      .map((p) => {
+        const card = img(ref(`assets/projects/${p.id}.svg`, renderProjectCard(p)), `${p.title} project`, ' width="405"');
+        return p.url ? link(p.url, card) : card;
+      })
       .join('\n'),
     moreTitle: extras.length ? title('more', 'More Builds') : '',
     more: extras

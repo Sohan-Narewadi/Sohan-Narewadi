@@ -25,6 +25,13 @@ test('static team card shows badge and team marker, no stars line', () => {
   assert.ok(!/Updated/.test(svg));
 });
 
+test('FIX-2: a non-team card whose repo is missing does not claim to be a team repository', () => {
+  const svg = renderProjectCard({ ...live, live: false, stars: null, pushedAt: null, badge: null, team: false });
+  assertWellFormed(svg);
+  assert.ok(!/Team repository/.test(svg));
+  assert.match(svg, /Stats unavailable/);
+});
+
 test('REVIEW-FOCUS 1: null description/language, 0 stars, unknown date never print null/undefined', () => {
   const svg = renderProjectCard({ title: 'Bare', description: null, tags: [], badge: null, team: false, live: true, stars: 0, pushedAt: null });
   assertWellFormed(svg);

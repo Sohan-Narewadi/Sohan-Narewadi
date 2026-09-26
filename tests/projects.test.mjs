@@ -35,6 +35,11 @@ test('a missing repo warns and renders without live stats instead of throwing', 
   assert.match(warnings[0], /Renamed-Repo/);
 });
 
+test('FIX-3: a static project with neither url nor repo gets url null, never an /undefined link', () => {
+  const out = mergeProjects({ projects: [{ id: 'x', title: 'X', description: 'd' }], repos: sampleRepos, user: 'u' });
+  assert.equal(out[0].url, null);
+});
+
 test('repo matching is case-insensitive', () => {
   const out = mergeProjects({ projects: [{ id: 'm', repo: 'medibridge', title: 'M' }], repos: sampleRepos, user: 'u' });
   assert.equal(out[0].live, true);

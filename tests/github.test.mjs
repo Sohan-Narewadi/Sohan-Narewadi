@@ -73,11 +73,11 @@ test('fetchGithub gathers repos + languages and sends the token', async () => {
   assert.ok(f.calls.every((c) => c.opts.headers.Authorization === 'Bearer tok'));
 });
 
-test('fetchGithub skips a repo whose languages call fails and warns', async () => {
+test('fetchGithub skips a repo whose languages call is 404/409 (deleted or empty) and warns', async () => {
   const warnings = [];
   const f = fakeFetch({
     '/users/octo/repos': ok([{ name: 'a', full_name: 'octo/a' }, { name: 'b', full_name: 'octo/b' }]),
-    '/repos/octo/a/languages': fail(502),
+    '/repos/octo/a/languages': fail(409),
     '/repos/octo/b/languages': ok({ C: 5 }),
     '/users/octo': ok({ login: 'octo', created_at: null }),
   });
@@ -85,6 +85,20 @@ test('fetchGithub skips a repo whose languages call fails and warns', async () =
   assert.deepEqual(data.languages, { b: { C: 5 } });
   assert.equal(warnings.length, 1);
   assert.match(warnings[0], /a/);
+});
+
+test('FIX-1: a rate limit, 5xx or network error on a languages call aborts instead of degrading the chart', async () => {
+  const routes = (langRes) => ({
+    '/users/octo/repos': ok([{ name: 'a', full_name: 'octo/a' }, { name: 'b', full_name: 'octo/b' }]),
+    '/repos/octo/a/languages': langRes,
+    '/repos/octo/b/languages': ok({ C: 5 }),
+    '/users/octo': ok({ login: 'octo' }),
+  });
+  for (const status of [403, 429, 500, 502]) {
+    await assert.rejects(() => fetchGithub({ user: 'octo', fetchImpl: fakeFetch(routes(fail(status))), warn: () => {} }), new RegExp(String(status)));
+  }
+  const boom = () => { throw new Error('socket hang up'); };
+  await assert.rejects(() => fetchGithub({ user: 'octo', fetchImpl: fakeFetch(routes(boom)), warn: () => {} }), /socket hang up/);
 });
 
 test('fetchGithub throws on rate limit (403) of the repo list', async () => {

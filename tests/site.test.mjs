@@ -52,6 +52,18 @@ test('REVIEW-FOCUS 5: a project pointing at a missing repo warns but still build
   assert.ok('assets/projects/ghost.svg' in files);
 });
 
+test('FIX-3: a static project without a url renders an unlinked card and never publishes /undefined', () => {
+  const { files } = build({ projects: [...sampleProjects, { id: 'nourl', title: 'No Url', description: 'x', tags: [] }] });
+  assert.ok('assets/projects/nourl.svg' in files);
+  assert.ok(!/undefined/.test(files['README.md']));
+  assert.match(files['README.md'], /<img src="assets\/projects\/nourl\.svg\?v=\w+" alt="No Url project" width="405" \/>/);
+});
+
+test('FIX-3: a project missing id or title is rejected with a clear message', () => {
+  assert.throws(() => build({ projects: [{ title: 'T' }] }), /"id"/);
+  assert.throws(() => build({ projects: [{ id: 'x' }] }), /"title"/);
+});
+
 test('duplicate project ids throw', () => {
   assert.throws(() => build({ projects: [sampleProjects[0], sampleProjects[0]] }), /duplicate/i);
 });

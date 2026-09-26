@@ -57,7 +57,7 @@ export function renderProjectCard(p) {
     const updated = formatDate(p.pushedAt);
     if (updated) parts.push(text(PAD + 18 + textWidth(stars, 12.5) + 14, 242, `Updated ${updated}`, { size: 12.5, fill: palette.muted }));
   } else {
-    parts.push(text(PAD, 242, 'Team repository', { size: 12.5, fill: palette.muted }));
+    parts.push(text(PAD, 242, p.team ? 'Team repository' : 'Stats unavailable', { size: 12.5, fill: palette.muted }));
   }
   parts.push(
     text(W - PAD - 14, 242, 'View repo', { size: 12.5, weight: 600, fill: '#c4b5fd', anchor: 'end' }),

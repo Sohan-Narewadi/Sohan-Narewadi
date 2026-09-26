@@ -55,7 +55,7 @@ async function getJson(url, { token, fetchImpl }) {
   const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'profile-readme-builder' };
   if (token) headers.Authorization = `Bearer ${token}`;
   const res = await fetchImpl(url, { headers });
-  if (!res.ok) throw new Error(`GitHub API ${res.status} for ${url}`);
+  if (!res.ok) throw Object.assign(new Error(`GitHub API ${res.status} for ${url}`), { status: res.status });
   return res.json();
 }
 
@@ -74,6 +74,9 @@ export async function fetchGithub({ user, token, fetchImpl = fetch, warn = conso
     try {
       languages[r.name] = await getJson(`${API}/repos/${user}/${r.name}/languages`, opts);
     } catch (err) {
+      // Only "gone" (404) or "empty repo" (409) may be skipped. A rate limit, 5xx or network error
+      // must abort so a degraded chart is never written over the last good one.
+      if (err.status !== 404 && err.status !== 409) throw err;
       warn(`languages for ${r.name} skipped: ${err.message}`);
     }
   }

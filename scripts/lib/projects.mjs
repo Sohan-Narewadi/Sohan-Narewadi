@@ -8,7 +8,7 @@ export function mergeProjects({ projects, repos, user, warn = () => {} }) {
       title: p.title,
       description: p.description ?? repo?.description ?? '',
       tags: p.tags ?? (repo?.language ? [repo.language] : []),
-      url: repo?.url ?? p.url ?? `https://github.com/${user}/${p.repo}`,
+      url: repo?.url ?? p.url ?? (p.repo ? `https://github.com/${user}/${p.repo}` : null),
       badge: p.badge ?? null,
       team: Boolean(p.team),
       live: Boolean(repo),

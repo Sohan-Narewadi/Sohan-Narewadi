@@ -9,6 +9,7 @@
     "fixture": "node scripts/build.mjs --save-fixture",
     "preview": "node scripts/preview.mjs",
     "check-links": "node scripts/check-links.mjs",
-    "test": "node --test \"tests/**/*.test.mjs\""
+    "test": "node --test \"tests/**/*.test.mjs\" \"tests/**/*.smoke.mjs\"",
+    "test:unit": "node --test \"tests/**/*.test.mjs\""
   }
 }

@@ -30,7 +30,7 @@ jobs:
           node-version: 22
 
       - name: Unit tests
-        run: npm test
+        run: npm run test:unit
 
       - name: Build README and assets
         run: node scripts/build.mjs
