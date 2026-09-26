@@ -1,0 +1,14 @@
+{
+  "name": "sohan-narewadi-profile",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:offline": "node scripts/build.mjs --offline",
+    "fixture": "node scripts/build.mjs --save-fixture",
+    "preview": "node scripts/preview.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\""
+  }
+}

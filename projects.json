@@ -1,0 +1,62 @@
+[
+  {
+    "id": "oceanembed",
+    "title": "OceanEmbed",
+    "url": "https://github.com/arsiwalamoiz24/OceanEmbed-SIH-2026",
+    "badge": "SIH 2026",
+    "team": true,
+    "description": "Reconstructs subsurface ocean temperature (0-1000 m) over the Bay of Bengal from satellite surface data, using a deep-learning embedding pipeline validated against Argo.",
+    "tags": ["Python", "PyTorch", "FastAPI", "React", "MapLibre"]
+  },
+  {
+    "id": "prism",
+    "title": "PRISM",
+    "url": "https://github.com/arsiwalamoiz24/SIH-26-internal-round",
+    "badge": "SIH 2026",
+    "team": true,
+    "description": "Lunar south-pole water-ice screening, hazard mapping and rover traverse planning on Chandrayaan-2 radar and NASA terrain data, with a 3D dashboard.",
+    "tags": ["Python", "YOLOv8", "Next.js", "Three.js"]
+  },
+  {
+    "id": "medibridge",
+    "repo": "MediBridge",
+    "title": "MediBridge",
+    "description": "Full-stack healthcare platform for patients, doctors and admins: appointments, medical records, prescriptions and medication reminders.",
+    "tags": ["Node.js", "Express", "MySQL", "JavaScript"]
+  },
+  {
+    "id": "codewar",
+    "repo": "Flutter---Mini-Project---CodeWar",
+    "title": "CodeWar",
+    "description": "Game-style coding practice app in Flutter with a world map, enemy battles, XP and ranks built around coding challenges.",
+    "tags": ["Flutter", "Dart", "Provider"]
+  },
+  {
+    "id": "smart-irrigation",
+    "repo": "smart_irrigation_3d",
+    "title": "Smart Irrigation 3D",
+    "description": "Interactive Three.js visualisation of an Arduino smart-irrigation circuit: soil moisture, a threshold dial, pump and sprinklers.",
+    "tags": ["Three.js", "JavaScript", "Arduino"]
+  },
+  {
+    "id": "quiz-battle",
+    "repo": "QUIZ_BATTLE",
+    "title": "Quiz Battle",
+    "description": "Two-player Java Swing quiz game with a neon UI, player setup screens and a text-file question bank.",
+    "tags": ["Java", "Swing"]
+  },
+  {
+    "id": "supermarket",
+    "repo": "Supermarket-Customer-Purchase-Analysis",
+    "title": "Supermarket Analysis",
+    "description": "Purchase-behaviour analysis with market-basket rules, RFM customer segments and a Random Forest model, shown in a Streamlit dashboard.",
+    "tags": ["Python", "Apriori", "Random Forest", "Streamlit"]
+  },
+  {
+    "id": "browser-manager",
+    "repo": "DS_IA_Browser_Manager",
+    "title": "Browser Manager",
+    "description": "A C simulation of a browser built on data structures: linked-list tabs, stack-based history, a download queue and BST bookmarks.",
+    "tags": ["C", "Linked List", "Stack", "BST"]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "user": "Sohan-Narewadi",
+  "name": "Sohan Narewadi",
+  "tagline": "Software Dev · Data Explorer · Builder",
+  "typingLines": [
+    "Software Dev · Data Explorer · Builder",
+    "Full-stack apps · ML pipelines · 3D visualisation"
+  ],
+  "bio": "Student software developer who likes building things end to end: full-stack web apps, a Flutter coding game, data analysis and ML pipelines, and 3D visualisations. This year I'm working on two Smart India Hackathon 2026 projects, OceanEmbed and PRISM.",
+  "facts": [
+    { "label": "Focus", "value": "Full-stack · Data & ML · 3D" },
+    { "label": "Languages", "value": "Java · C · JavaScript · Python · Dart" },
+    { "label": "Hackathon", "value": "Smart India Hackathon 2026" }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/sohan-narewadi-2b6b51367/",
+    "email": "sohan.n@somaiya.edu",
+    "portfolio": "https://sohan-narewadi.dev"
+  },
+  "stack": [
+    { "title": "Languages", "items": ["Java", "C", "JavaScript", "Python", "Dart", "HTML", "CSS"] },
+    { "title": "Web & Mobile", "items": ["Node.js", "Express", "React", "Next.js", "FastAPI", "Flutter", "MySQL"] },
+    { "title": "Data & ML", "items": ["PyTorch", "YOLOv8", "Random Forest", "Apriori", "Streamlit", "Jupyter"] },
+    { "title": "3D & Embedded", "items": ["Three.js", "React Three Fiber", "MapLibre GL", "Arduino"] }
+  ],
+  "nowCount": 3
+}
