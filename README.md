@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg?v=73ddc437" alt="Sohan Narewadi — GitHub profile" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&amp;weight=600&amp;size=22&amp;duration=3200&amp;pause=1200&amp;color=0D9488&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;lines=Software+Dev+%C2%B7+Data+Explorer+%C2%B7+Vibe+Coder;Full-stack+apps+%C2%B7+Machine+learning+%C2%B7+Clean+code" alt="Software Dev · Data Explorer · Vibe Coder" />
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&amp;weight=600&amp;size=22&amp;duration=3200&amp;pause=1200&amp;color=0D9488&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;lines=Software+Dev+%C2%B7+Data+Explorer+%C2%B7+Builder;Full-stack+apps+%C2%B7+Machine+learning+%C2%B7+Clean+code" alt="Software Dev · Data Explorer · Builder" />
 
 </div>
 
