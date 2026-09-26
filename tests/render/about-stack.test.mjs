@@ -30,9 +30,12 @@ test('stack lays pills out inside the card width and grows in height', () => {
   const svg = renderStack([{ title: 'Languages', items }, { title: 'Tools', items: ['Git'] }]);
   assertWellFormed(svg);
   const width = 830;
-  for (const m of svg.matchAll(/<rect x="([\d.]+)" y="[\d.]+" width="([\d.]+)" height="30"/g)) {
+  let pills = 0;
+  for (const m of svg.matchAll(/<rect x="([\d.]+)" y="[\d.]+" width="([\d.]+)" height="34"/g)) {
+    pills += 1;
     assert.ok(Number(m[1]) + Number(m[2]) <= width - 32 + 0.01, 'pill overflows');
   }
+  assert.equal(pills, 31, 'every item should render as a 34px-high pill');
   assert.match(svg, /LANGUAGES/);
   assert.match(svg, /Technology29/);
 });

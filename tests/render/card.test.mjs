@@ -8,7 +8,8 @@ const live = { title: 'MediBridge', description: 'Full-stack healthcare platform
 test('live card shows title, stars, updated date and tags', () => {
   const svg = renderProjectCard(live);
   assertWellFormed(svg);
-  assert.match(svg, /viewBox="0 0 440 250"/);
+  // 250px card + 12px transparent bottom margin so stacked cards do not touch on GitHub
+  assert.match(svg, /viewBox="0 0 440 262"/);
   assert.match(svg, />MediBridge</);
   assert.match(svg, />3</);
   assert.match(svg, /Updated 21 Sep 2026/);

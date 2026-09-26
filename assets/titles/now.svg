@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="830" height="56" viewBox="0 0 830 56" role="img" aria-label="Currently Working On" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"><title>Currently Working On</title><defs><linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3a"/><stop offset="1" stop-color="#0b1020"/></linearGradient><radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
-<rect x="0" y="27" width="281.03999999999996" height="2" rx="1" fill="url(#aurora)" fill-opacity="0.6"/>
-<rect x="548.96" y="27" width="281.03999999999996" height="2" rx="1" fill="url(#aurora)" fill-opacity="0.6"/>
+<rect x="0" y="27" width="261" height="2" rx="1" fill="url(#aurora)" fill-opacity="0.6"/>
+<rect x="569" y="27" width="261" height="2" rx="1" fill="url(#aurora)" fill-opacity="0.6"/>
+<rect class="title-pill" x="273" y="4" width="284" height="48" rx="24" fill="url(#base)" stroke="url(#aurora)" stroke-opacity="0.7"/>
 <text x="415" y="35" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Currently Working On</text>
 </svg>

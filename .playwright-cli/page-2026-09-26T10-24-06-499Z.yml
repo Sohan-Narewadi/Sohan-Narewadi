@@ -1,0 +1,72 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - img "Sohan Narewadi — GitHub profile" [ref=e4]
+    - img "Software Dev · Data Explorer · Builder" [ref=e5]
+  - generic [ref=e6]:
+    - img "About" [ref=e7]
+    - img "Tech stack" [ref=e8]
+    - img "Featured Projects" [ref=e9]
+    - link [ref=e10] [cursor=pointer]:
+      - /url: https://github.com/arsiwalamoiz24/OceanEmbed-SIH-2026
+      - img "OceanEmbed project" [ref=e11]
+    - link [ref=e12] [cursor=pointer]:
+      - /url: https://github.com/arsiwalamoiz24/SIH-26-internal-round
+      - img "PRISM project" [ref=e13]
+    - link [ref=e14] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/MediBridge
+      - img "MediBridge project" [ref=e15]
+    - link [ref=e16] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/Flutter---Mini-Project---CodeWar
+      - img "CodeWar project" [ref=e17]
+    - link [ref=e18] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/smart_irrigation_3d
+      - img "Smart Irrigation 3D project" [ref=e19]
+    - link [ref=e20] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/QUIZ_BATTLE
+      - img "Quiz Battle project" [ref=e21]
+    - link [ref=e22] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/Supermarket-Customer-Purchase-Analysis
+      - img "Supermarket Analysis project" [ref=e23]
+    - link [ref=e24] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/DS_IA_Browser_Manager
+      - img "Browser Manager project" [ref=e25]
+    - img "More Builds" [ref=e26]
+    - link [ref=e27] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/FSDL-Exp-4
+      - img "FSDL-Exp-4" [ref=e28]
+    - link [ref=e29] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/FSDL-exp2
+      - img "FSDL-exp2" [ref=e30]
+    - link [ref=e31] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/Travel-and-Tourism-Webpage-1
+      - img "Travel-and-Tourism-Webpage-1" [ref=e32]
+    - link [ref=e33] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/Travel-and-Tourism-Webpage-2
+      - img "Travel-and-Tourism-Webpage-2" [ref=e34]
+    - link [ref=e35] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi/optimizer_117
+      - img "optimizer_117" [ref=e36]
+    - img "Currently Working On" [ref=e37]
+    - link [ref=e38] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi?tab=repositories
+      - img "Recently pushed repositories" [ref=e39]
+    - img "GitHub Stats" [ref=e40]
+    - link [ref=e41] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi
+      - img "Top languages" [ref=e42]
+    - link [ref=e43] [cursor=pointer]:
+      - /url: https://github.com/Sohan-Narewadi
+      - img "GitHub at a glance" [ref=e44]
+    - img "Contributions" [ref=e45]
+    - img "Contribution snake" [ref=e46]
+    - img "Let's Connect" [ref=e47]
+    - link [ref=e48] [cursor=pointer]:
+      - /url: https://www.linkedin.com/in/sohan-narewadi-2b6b51367/
+      - img "LinkedIn" [ref=e49]
+    - link [ref=e50] [cursor=pointer]:
+      - /url: mailto:sohan.n@somaiya.edu
+      - img "Email" [ref=e51]
+    - link [ref=e52] [cursor=pointer]:
+      - /url: https://sohan-narewadi.dev
+      - img "Portfolio" [ref=e53]
+    - img "Thanks for visiting" [ref=e54]

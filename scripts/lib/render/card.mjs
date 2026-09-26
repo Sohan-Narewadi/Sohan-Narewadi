@@ -3,6 +3,7 @@ import { svgOpen, svgClose, cardBase, text, textWidth, wrapText, truncate, clamp
 
 const W = 440;
 const H = 250;
+const MARGIN = 12; // transparent gap below the card so stacked cards do not touch
 const PAD = 28;
 const INNER = W - PAD * 2;
 
@@ -25,7 +26,7 @@ function star(cx, cy, r, fill) {
 }
 
 export function renderProjectCard(p) {
-  const parts = [svgOpen(W, H, `${p.title} — project`), cardBase(W, H)];
+  const parts = [svgOpen(W, H + MARGIN, `${p.title} — project`), cardBase(W, H)];
   parts.push(text(PAD, 52, truncate(p.title, INNER, 22), { size: 22, weight: 700, fill: '#ffffff' }));
 
   const badges = [p.badge, p.team ? 'Team project' : null].filter(Boolean);

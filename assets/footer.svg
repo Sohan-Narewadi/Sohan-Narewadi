@@ -2,11 +2,11 @@
 <clipPath id="fclip"><rect width="1000" height="140" rx="24"/></clipPath>
 <g clip-path="url(#fclip)">
 <rect width="1000" height="140" fill="url(#base)"/>
-<path d="M0 60 q125 -26 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V150 H0 Z" fill="#8b5cf6" fill-opacity="0.35"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="12s" repeatCount="indefinite"/></path>
-<path d="M0 80 q125 -20 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V150 H0 Z" fill="#22d3ee" fill-opacity="0.35"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/></path>
-<path d="M0 98 q125 -16 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V150 H0 Z" fill="#f472b6" fill-opacity="0.4"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="7s" repeatCount="indefinite"/></path>
-<text x="500" y="74" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Thanks for visiting</text>
-<text x="500" y="102" font-size="13" font-weight="400" fill="#c7d2fe" text-anchor="middle">Built with a GitHub Action · refreshes every 6 hours</text>
+<path d="M0 102 q125 -14 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V150 H0 Z" fill="#8b5cf6" fill-opacity="0.4"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="12s" repeatCount="indefinite"/></path>
+<path d="M0 110 q125 -12 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V150 H0 Z" fill="#22d3ee" fill-opacity="0.4"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/></path>
+<path d="M0 118 q125 -10 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V150 H0 Z" fill="#f472b6" fill-opacity="0.45"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="7s" repeatCount="indefinite"/></path>
+<text x="500" y="56" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Thanks for visiting</text>
+<text x="500" y="82" font-size="13" font-weight="400" fill="#c7d2fe" text-anchor="middle">Built with a GitHub Action · refreshes every 6 hours</text>
 </g>
 <rect x="0.5" y="0.5" width="999" height="139" rx="24" fill="none" stroke="url(#aurora)" stroke-opacity="0.6"/>
 </svg>

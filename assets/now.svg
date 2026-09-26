@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="222" viewBox="0 0 830 222" role="img" aria-label="Currently working on" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"><title>Currently working on</title><defs><linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3a"/><stop offset="1" stop-color="#0b1020"/></linearGradient><radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
-<rect width="830" height="222" rx="20" fill="url(#base)"/><rect width="830" height="222" rx="20" fill="url(#glowV)"/><rect width="830" height="222" rx="20" fill="url(#glowC)"/><rect x="0.5" y="0.5" width="829" height="221" rx="20" fill="none" stroke="url(#aurora)" stroke-opacity="0.55"/>
-<rect x="20" y="24" width="790" height="50" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
-<circle cx="42" cy="49" r="5" fill="#f1e05a"/>
-<circle cx="42" cy="49" r="5" fill="#f1e05a" opacity="0.5"><animate attributeName="r" values="5;11;5" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
-<text x="62" y="46" font-size="16" font-weight="700" fill="#ffffff" text-anchor="start">smart_irrigation_3d</text>
-<text x="62" y="64" font-size="12.5" font-weight="400" fill="#9aa4cf" text-anchor="start">Interactive Three.js visualisation of an Arduino smart-irrigation circuit: soil moistur…</text>
-<text x="790" y="55" font-size="12.5" font-weight="400" fill="#c7d2fe" text-anchor="end">Pushed 22 Sep 2026</text>
-<rect x="20" y="86" width="790" height="50" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
-<circle cx="42" cy="111" r="5" fill="#ff7a59"/>
-<text x="62" y="108" font-size="16" font-weight="700" fill="#ffffff" text-anchor="start">Flutter---Mini-Project---CodeWar</text>
-<text x="62" y="126" font-size="12.5" font-weight="400" fill="#9aa4cf" text-anchor="start">Game-style coding practice app in Flutter with a world map, enemy battles, XP and rank…</text>
-<text x="790" y="117" font-size="12.5" font-weight="400" fill="#c7d2fe" text-anchor="end">Pushed 22 Sep 2026</text>
-<rect x="20" y="148" width="790" height="50" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
-<circle cx="42" cy="173" r="5" fill="#ff7a59"/>
-<text x="62" y="170" font-size="16" font-weight="700" fill="#ffffff" text-anchor="start">MediBridge</text>
-<text x="62" y="188" font-size="12.5" font-weight="400" fill="#9aa4cf" text-anchor="start">Smart Healthcare Access &amp; Management Platform</text>
-<text x="790" y="179" font-size="12.5" font-weight="400" fill="#c7d2fe" text-anchor="end">Pushed 21 Sep 2026</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="246" viewBox="0 0 830 246" role="img" aria-label="Currently working on" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"><title>Currently working on</title><defs><linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3a"/><stop offset="1" stop-color="#0b1020"/></linearGradient><radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+<rect width="830" height="246" rx="20" fill="url(#base)"/><rect width="830" height="246" rx="20" fill="url(#glowV)"/><rect width="830" height="246" rx="20" fill="url(#glowC)"/><rect x="0.5" y="0.5" width="829" height="245" rx="20" fill="none" stroke="url(#aurora)" stroke-opacity="0.55"/>
+<rect x="20" y="24" width="790" height="58" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+<circle cx="42" cy="53" r="6" fill="#f1e05a"/>
+<circle cx="42" cy="53" r="6" fill="#f1e05a" opacity="0.5"><animate attributeName="r" values="6;13;6" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
+<text x="64" y="50" font-size="19" font-weight="700" fill="#ffffff" text-anchor="start">smart_irrigation_3d</text>
+<text x="64" y="71" font-size="14" font-weight="400" fill="#9aa4cf" text-anchor="start">Interactive Three.js visualisation of an Arduino smart-irrigation cir…</text>
+<text x="790" y="60" font-size="14" font-weight="400" fill="#c7d2fe" text-anchor="end">Pushed 22 Sep 2026</text>
+<rect x="20" y="94" width="790" height="58" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+<circle cx="42" cy="123" r="6" fill="#ff7a59"/>
+<text x="64" y="120" font-size="19" font-weight="700" fill="#ffffff" text-anchor="start">Flutter---Mini-Project---CodeWar</text>
+<text x="64" y="141" font-size="14" font-weight="400" fill="#9aa4cf" text-anchor="start">Game-style coding practice app in Flutter with a world map, enemy batt…</text>
+<text x="790" y="130" font-size="14" font-weight="400" fill="#c7d2fe" text-anchor="end">Pushed 22 Sep 2026</text>
+<rect x="20" y="164" width="790" height="58" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+<circle cx="42" cy="193" r="6" fill="#ff7a59"/>
+<text x="64" y="190" font-size="19" font-weight="700" fill="#ffffff" text-anchor="start">MediBridge</text>
+<text x="64" y="211" font-size="14" font-weight="400" fill="#9aa4cf" text-anchor="start">Smart Healthcare Access &amp; Management Platform</text>
+<text x="790" y="200" font-size="14" font-weight="400" fill="#c7d2fe" text-anchor="end">Pushed 21 Sep 2026</text>
 </svg>

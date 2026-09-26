@@ -11,6 +11,10 @@ test('typingUrl encodes lines, separates them with ; and has no raw spaces', () 
   assert.match(url, /lines=Software\+Dev\+%C2%B7\+Data\+Explorer;Second\+%26\+line/);
 });
 
+test('typingUrl uses a mid-tone violet that stays readable on both light and dark backgrounds', () => {
+  assert.equal(new URL(typingUrl(['x'])).searchParams.get('color'), '8B5CF6');
+});
+
 test('typingUrl strips semicolons from lines so they cannot split the animation', () => {
   const lines = new URL(typingUrl(['a;b'])).searchParams.get('lines');
   assert.equal(lines, 'a,b');
