@@ -38,7 +38,7 @@
 <img src="assets/titles/stats.svg?v=85b74bce" alt="GitHub Stats" width="830" />
 
 <a href="https://github.com/Sohan-Narewadi"><img src="assets/languages.svg?v=5b522960" alt="Top languages" width="405" /></a>
-<a href="https://github.com/Sohan-Narewadi"><img src="assets/numbers.svg?v=92cf4d48" alt="GitHub at a glance" width="405" /></a>
+<a href="https://github.com/Sohan-Narewadi"><img src="assets/numbers.svg?v=2f561234" alt="GitHub at a glance" width="405" /></a>
 
 <img src="assets/titles/snake.svg?v=6e0200e8" alt="Contributions" width="830" />
 
