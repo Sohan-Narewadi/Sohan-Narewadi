@@ -16,7 +16,7 @@
 
 <a href="https://github.com/arsiwalamoiz24/OceanEmbed-SIH-2026"><img src="assets/projects/oceanembed.svg?v=acc98dda" alt="OceanEmbed project" width="405" /></a>
 <a href="https://github.com/arsiwalamoiz24/SIH-26-internal-round"><img src="assets/projects/prism.svg?v=8751903e" alt="PRISM project" width="405" /></a>
-<a href="https://github.com/Sohan-Narewadi/MediBridge"><img src="assets/projects/medibridge.svg?v=59356f57" alt="MediBridge project" width="405" /></a>
+<a href="https://github.com/Sohan-Narewadi/MediBridge"><img src="assets/projects/medibridge.svg?v=ceea2868" alt="MediBridge project" width="405" /></a>
 <a href="https://github.com/Sohan-Narewadi/Flutter---Mini-Project---CodeWar"><img src="assets/projects/codewar.svg?v=b3c08848" alt="CodeWar project" width="405" /></a>
 <a href="https://github.com/Sohan-Narewadi/smart_irrigation_3d"><img src="assets/projects/smart-irrigation.svg?v=749fe13b" alt="Smart Irrigation 3D project" width="405" /></a>
 <a href="https://github.com/Sohan-Narewadi/QUIZ_BATTLE"><img src="assets/projects/quiz-battle.svg?v=958ad4dc" alt="Quiz Battle project" width="405" /></a>
@@ -34,7 +34,7 @@
 
 <img src="assets/titles/now.svg?v=02623947" alt="Currently Working On" width="830" />
 
-<a href="https://github.com/Sohan-Narewadi?tab=repositories"><img src="assets/now.svg?v=395c2db1" alt="Recently pushed repositories" width="830" /></a>
+<a href="https://github.com/Sohan-Narewadi?tab=repositories"><img src="assets/now.svg?v=c4ff455e" alt="Recently pushed repositories" width="830" /></a>
 
 <img src="assets/titles/stats.svg?v=85b74bce" alt="GitHub Stats" width="830" />
 

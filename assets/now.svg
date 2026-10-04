@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="830" height="246" viewBox="0 0 830 246" role="img" aria-label="Currently working on" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"><title>Currently working on</title><defs><linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161c26"/><stop offset="1" stop-color="#0f1419"/></linearGradient><radialGradient id="glowV" cx="0.12" cy="0.05" r="0.85"><stop offset="0" stop-color="#5eead4" stop-opacity="0.16"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient><radialGradient id="glowC" cx="0.95" cy="0.98" r="0.85"><stop offset="0" stop-color="#7dd3fc" stop-opacity="0.12"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></radialGradient></defs>
 <rect width="830" height="246" rx="20" fill="url(#base)"/><rect width="830" height="246" rx="20" fill="url(#glowV)"/><rect width="830" height="246" rx="20" fill="url(#glowC)"/><rect x="0.5" y="0.5" width="829" height="245" rx="20" fill="none" stroke="url(#aurora)" stroke-opacity="0.45"/>
 <rect x="20" y="24" width="790" height="58" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
-<circle cx="42" cy="53" r="6" fill="#f1e05a"/>
-<circle cx="42" cy="53" r="6" fill="#f1e05a" opacity="0.5"><animate attributeName="r" values="6;13;6" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
-<text x="64" y="50" font-size="19" font-weight="700" fill="#f1f5f9" text-anchor="start">FSDL-Exp-5</text>
-<text x="64" y="71" font-size="14" font-weight="400" fill="#7d8a9c" text-anchor="start">JavaScript</text>
-<text x="790" y="60" font-size="14" font-weight="400" fill="#a9bccd" text-anchor="end">Pushed 2 Oct 2026</text>
+<circle cx="42" cy="53" r="6" fill="#ff7a59"/>
+<circle cx="42" cy="53" r="6" fill="#ff7a59" opacity="0.5"><animate attributeName="r" values="6;13;6" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
+<text x="64" y="50" font-size="19" font-weight="700" fill="#f1f5f9" text-anchor="start">MediBridge</text>
+<text x="64" y="71" font-size="14" font-weight="400" fill="#7d8a9c" text-anchor="start">Smart Healthcare Access &amp; Management Platform</text>
+<text x="790" y="60" font-size="14" font-weight="400" fill="#a9bccd" text-anchor="end">Pushed 4 Oct 2026</text>
 <rect x="20" y="94" width="790" height="58" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
 <circle cx="42" cy="123" r="6" fill="#f1e05a"/>
-<text x="64" y="120" font-size="19" font-weight="700" fill="#f1f5f9" text-anchor="start">smart_irrigation_3d</text>
-<text x="64" y="141" font-size="14" font-weight="400" fill="#7d8a9c" text-anchor="start">Interactive Three.js visualisation of an Arduino smart-irrigation cir…</text>
-<text x="790" y="130" font-size="14" font-weight="400" fill="#a9bccd" text-anchor="end">Pushed 28 Sep 2026</text>
+<text x="64" y="120" font-size="19" font-weight="700" fill="#f1f5f9" text-anchor="start">FSDL-Exp-5</text>
+<text x="64" y="141" font-size="14" font-weight="400" fill="#7d8a9c" text-anchor="start">JavaScript</text>
+<text x="790" y="130" font-size="14" font-weight="400" fill="#a9bccd" text-anchor="end">Pushed 2 Oct 2026</text>
 <rect x="20" y="164" width="790" height="58" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
-<circle cx="42" cy="193" r="6" fill="#ff7a59"/>
-<text x="64" y="190" font-size="19" font-weight="700" fill="#f1f5f9" text-anchor="start">Flutter---Mini-Project---CodeWar</text>
-<text x="64" y="211" font-size="14" font-weight="400" fill="#7d8a9c" text-anchor="start">Game-style coding practice app in Flutter with a world map, enemy batt…</text>
-<text x="790" y="200" font-size="14" font-weight="400" fill="#a9bccd" text-anchor="end">Pushed 22 Sep 2026</text>
+<circle cx="42" cy="193" r="6" fill="#f1e05a"/>
+<text x="64" y="190" font-size="19" font-weight="700" fill="#f1f5f9" text-anchor="start">smart_irrigation_3d</text>
+<text x="64" y="211" font-size="14" font-weight="400" fill="#7d8a9c" text-anchor="start">Interactive Three.js visualisation of an Arduino smart-irrigation cir…</text>
+<text x="790" y="200" font-size="14" font-weight="400" fill="#a9bccd" text-anchor="end">Pushed 28 Sep 2026</text>
 </svg>
