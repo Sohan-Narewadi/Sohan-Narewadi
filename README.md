@@ -25,6 +25,7 @@
 
 <img src="assets/titles/more.svg?v=e2cc2157" alt="More Builds" width="830" />
 
+<a href="https://github.com/Sohan-Narewadi/AI-IA-2"><img src="assets/chips/ai-ia-2-9d42.svg?v=52fb1473" alt="AI-IA-2" /></a>
 <a href="https://github.com/Sohan-Narewadi/FSDL-Exp-5"><img src="assets/chips/fsdl-exp-5-f67f.svg?v=47248c04" alt="FSDL-Exp-5" /></a>
 <a href="https://github.com/Sohan-Narewadi/FSDL-Exp-4"><img src="assets/chips/fsdl-exp-4-a437.svg?v=7142a5e3" alt="FSDL-Exp-4" /></a>
 <a href="https://github.com/Sohan-Narewadi/FSDL-exp2"><img src="assets/chips/fsdl-exp2-c67d.svg?v=8f9fa49e" alt="FSDL-exp2" /></a>
@@ -34,12 +35,12 @@
 
 <img src="assets/titles/now.svg?v=02623947" alt="Currently Working On" width="830" />
 
-<a href="https://github.com/Sohan-Narewadi?tab=repositories"><img src="assets/now.svg?v=113da31b" alt="Recently pushed repositories" width="830" /></a>
+<a href="https://github.com/Sohan-Narewadi?tab=repositories"><img src="assets/now.svg?v=d901a71c" alt="Recently pushed repositories" width="830" /></a>
 
 <img src="assets/titles/stats.svg?v=85b74bce" alt="GitHub Stats" width="830" />
 
-<a href="https://github.com/Sohan-Narewadi"><img src="assets/languages.svg?v=763f95fb" alt="Top languages" width="405" /></a>
-<a href="https://github.com/Sohan-Narewadi"><img src="assets/numbers.svg?v=57f08c30" alt="GitHub at a glance" width="405" /></a>
+<a href="https://github.com/Sohan-Narewadi"><img src="assets/languages.svg?v=5c748512" alt="Top languages" width="405" /></a>
+<a href="https://github.com/Sohan-Narewadi"><img src="assets/numbers.svg?v=e7a55c54" alt="GitHub at a glance" width="405" /></a>
 
 <img src="assets/titles/snake.svg?v=6e0200e8" alt="Contributions" width="830" />
 
