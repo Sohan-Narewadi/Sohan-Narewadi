@@ -13,9 +13,26 @@ Currently working with full-stack web and machine learning.
 - **[Smart Irrigation 3D](https://github.com/Sohan-Narewadi/smart_irrigation_3d)**: interactive visualisation of an Arduino irrigation circuit. Three.js.
 - **[Supermarket Analysis](https://github.com/Sohan-Narewadi/Supermarket-Customer-Purchase-Analysis)**: market-basket rules and customer segmentation in a Streamlit dashboard. Python.
 
+## Interfaces
+
+<img src="images/medibridge-ui.png" alt="MediBridge UI prototype: landing, login, patient, doctor and admin dashboards" width="100%" />
+
+<sub>MediBridge: nine-screen prototype covering patient, doctor and admin dashboards.</sub>
+
+<img src="images/oceanembed-architecture.png" alt="OceanEmbed pipeline architecture" width="100%" />
+
+<sub>OceanEmbed: satellite inputs to encoder, decoder, validation against Argo, served through FastAPI.</sub>
+
 ## Tools
 
 Java, C, JavaScript, Python, Dart · Node.js, React, Next.js, FastAPI, Flutter · PyTorch, Streamlit · Three.js, Arduino
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sohan-Narewadi/Sohan-Narewadi/output/snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Sohan-Narewadi/Sohan-Narewadi/output/snake.svg" width="100%" />
+</picture>
 
 ## Contact
 
