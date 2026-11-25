@@ -13,6 +13,28 @@ Currently working with full-stack web and machine learning.
 - **[Smart Irrigation 3D](https://github.com/Sohan-Narewadi/smart_irrigation_3d)**: interactive visualisation of an Arduino irrigation circuit. Three.js.
 - **[Supermarket Analysis](https://github.com/Sohan-Narewadi/Supermarket-Customer-Purchase-Analysis)**: market-basket rules and customer segmentation in a Streamlit dashboard. Python.
 
+## Dashboards
+
+**MediBridge**: patient and admin dashboards
+
+<img src="images/medibridge.webp" alt="MediBridge patient dashboard with care score and daily to-dos, next to the admin overview with discharge and follow-up tracking" width="100%" />
+
+**OceanEmbed**: Bay of Bengal explorer with a reconstructed temperature-depth profile (shown with demo data)
+
+<img src="images/oceanembed.webp" alt="OceanEmbed explorer map of the North Indian Ocean with a temperature-depth profile panel for a Bay of Bengal point" width="100%" />
+
+**PRISM**: lunar south-pole candidate screening and 3D rover traverse planner
+
+<img src="images/prism.webp" alt="PRISM candidate view with a south-pole map and evidence scores, next to the 3D terrain traverse planner" width="100%" />
+
+**CodeWar**: campaign, battle, practice and profile screens
+
+<img src="images/codewar.webp" alt="Four CodeWar mobile screens: home campaign path, boss-fight code editor, practice topics and player profile" width="100%" />
+
+**Smart Irrigation 3D**: farm simulation with a live sensor panel
+
+<img src="images/smart-irrigation.webp" alt="Smart Irrigation 3D farm scene with a control panel showing moisture, threshold, rain and tank level" width="100%" />
+
 ## Tools
 
 Java, C, JavaScript, Python, Dart · Node.js, React, Next.js, FastAPI, Flutter · PyTorch, Streamlit · Three.js, Arduino
